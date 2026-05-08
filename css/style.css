@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+header{
+    background-color: #0a0d17;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero{
+    background-color: transparent;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 0px 0px 10px #fff;
+}
+nav{
+    background-color: transparent;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.logo{
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+img{
+    width: 150px;
+    height: auto;
+}
+
+.con1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.items1{
+    background-color: transparent;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: #fff 0px 0px 10px;
+}
+
+.btn1{
+    background-color: transparent;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.con2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.con2 .items2{
+    background-color: transparent;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: #fff 0px 0px 10px;
+    width: 100%;
+}
+.con2 .items3{
+    background-color: transparent;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: #fff 0px 0px 10px;
+    width: 30%;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #0a0d17;
+    transition: background-color 0.3s ease;
+}
+
+
+a:hover{
+    background-color: transparent;
+    color: #0938d4;
+}
+
+
+.con3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.con3 a{
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.con3 a:hover{
+    background-color: #0a0d17;
+    color: #0938d4;
+}
+
+#btn3{
+    background-color: #4c4d52;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#btn3:hover{
+    background-color: transparent;
+    color: #0938d4;
+}
+
+main{
+    background-color: transparent;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+body{
+    background-image: url('/img/hero-home.jpg');
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+.head{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.hero{
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.btn4{
+    background-color: #0a0d17;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn4:hover{
+    background-color: transparent;
+    color: #0938d4;
+}
+
+.con4{
+    /* display: flex; */
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 100px;
+}
+
+.con4 .head{
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.con4 .hero{
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.con4 .btn4{
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.con4 .btn4:hover{
+    background-color: transparent;
+    color: #fff;
+}
+
+.btn5{
+    background-color: #0a0d17;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn5:hover{
+    background-color: transparent;
+    color: #fff;
+}
